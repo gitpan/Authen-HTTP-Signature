@@ -40,19 +40,19 @@
    "provides" : {
       "Authen::HTTP::Signature" : {
          "file" : "lib/Authen/HTTP/Signature.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Authen::HTTP::Signature::Method::HMAC" : {
          "file" : "lib/Authen/HTTP/Signature/Method/HMAC.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Authen::HTTP::Signature::Method::RSA" : {
          "file" : "lib/Authen/HTTP/Signature/Method/RSA.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Authen::HTTP::Signature::Parser" : {
          "file" : "lib/Authen/HTTP/Signature/Parser.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -64,5 +64,5 @@
          "url" : "https://github.com/mrallen1/Authen-HTTP-Signature"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

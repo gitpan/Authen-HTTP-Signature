@@ -17,16 +17,16 @@ name: Authen-HTTP-Signature
 provides:
   Authen::HTTP::Signature:
     file: lib/Authen/HTTP/Signature.pm
-    version: 0.01
+    version: 0.02
   Authen::HTTP::Signature::Method::HMAC:
     file: lib/Authen/HTTP/Signature/Method/HMAC.pm
-    version: 0.01
+    version: 0.02
   Authen::HTTP::Signature::Method::RSA:
     file: lib/Authen/HTTP/Signature/Method/RSA.pm
-    version: 0.01
+    version: 0.02
   Authen::HTTP::Signature::Parser:
     file: lib/Authen/HTTP/Signature/Parser.pm
-    version: 0.01
+    version: 0.02
 requires:
   Crypt::OpenSSL::RSA: 0.28
   Digest::SHA: 5.70
@@ -38,4 +38,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/mrallen1/Authen-HTTP-Signature
-version: 0.01
+version: 0.02
