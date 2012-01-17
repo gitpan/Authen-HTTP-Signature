@@ -1,0 +1,41 @@
+---
+abstract: 'Sign and validate HTTP headers'
+author:
+  - 'Mark Allen <mrallen1@yahoo.com>'
+build_requires:
+  Test::Fatal: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Authen-HTTP-Signature
+provides:
+  Authen::HTTP::Signature:
+    file: lib/Authen/HTTP/Signature.pm
+    version: 0.01
+  Authen::HTTP::Signature::Method::HMAC:
+    file: lib/Authen/HTTP/Signature/Method/HMAC.pm
+    version: 0.01
+  Authen::HTTP::Signature::Method::RSA:
+    file: lib/Authen/HTTP/Signature/Method/RSA.pm
+    version: 0.01
+  Authen::HTTP::Signature::Parser:
+    file: lib/Authen/HTTP/Signature/Parser.pm
+    version: 0.01
+requires:
+  Crypt::OpenSSL::RSA: 0.28
+  Digest::SHA: 5.70
+  HTTP::Date: 6.00
+  HTTP::Message: 6.02
+  MIME::Base64: 3.13
+  Moo: 0.009013
+  perl: 5.010
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/mrallen1/Authen-HTTP-Signature
+version: 0.01
